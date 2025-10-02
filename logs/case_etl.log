@@ -1,0 +1,85 @@
+2025-09-30 15:23:58,528 [INFO] ==================================================
+2025-09-30 15:23:58,529 [INFO] Iniciando pipeline ETL do Case
+2025-09-30 15:24:00,634 [INFO] Arquivo carregado: C:\Users\msilva36\OneDrive - ELIS\Documentos\Case\src\raw\Case Assitente Comercial KA.xlsx (466 registros)
+2025-09-30 15:24:00,636 [ERROR] Erro na transformação: "The following id_vars or value_vars are not present in the DataFrame: ['State Label', 'City', 'Brand']"
+2025-09-30 15:24:00,637 [WARNING] Transformação falhou. Encerrando pipeline.
+2025-09-30 15:25:28,971 [INFO] ==================================================
+2025-09-30 15:25:28,972 [INFO] Iniciando pipeline ETL do Case
+2025-09-30 15:25:31,305 [INFO] Arquivo carregado: C:\Users\msilva36\OneDrive - ELIS\Documentos\Case\src\raw\Case Assitente Comercial KA.xlsx (466 registros)
+2025-09-30 15:25:31,343 [ERROR] Erro na transformação: "The following id_vars or value_vars are not present in the DataFrame: ['State Label', 'City', 'Brand']"
+2025-09-30 15:25:31,344 [WARNING] Transformação falhou. Encerrando pipeline.
+2025-09-30 15:26:49,291 [INFO] Iniciando script principal.
+2025-09-30 15:26:49,291 [INFO] Iniciando ETL robusto (wide -> long)
+2025-09-30 15:26:51,249 [INFO] Lido com header=[0,1] (multiindex).
+2025-09-30 15:26:51,251 [INFO] Colunas originais (1004): [('Unnamed: 0_level_0', 'State Label'), ('Unnamed: 1_level_0', 'City'), ('Unnamed: 2_level_0', 'Brand'), ('Ticket Médio (sem taxa)', '1 de janeiro de 2024'), ('Ticket Médio (sem taxa)', '2 de janeiro de 2024'), ('Ticket Médio (sem taxa)', '3 de janeiro de 2024'), ('Ticket Médio (sem taxa)', '4 de janeiro de 2024'), ('Ticket Médio (sem taxa)', '5 de janeiro de 2024'), ('Ticket Médio (sem taxa)', '6 de janeiro de 2024'), ('Ticket Médio (sem taxa)', '7 de janeiro de 2024')] ...
+2025-09-30 15:26:51,252 [INFO] Colunas multiindex achatas com '___' entre métrica e data.
+2025-09-30 15:26:51,287 [INFO] Colunas detectadas - state: 'Unnamed: 0_level_0___State Label' / city: 'Unnamed: 1_level_0___City' / brand: 'Unnamed: 2_level_0___Brand'
+2025-09-30 15:26:51,289 [INFO] 1001 colunas de valor detectadas.
+2025-09-30 15:26:51,294 [INFO] Realizando melt (wide -> long)...
+2025-09-30 15:26:51,357 [INFO] After melt rows: 466466
+2025-09-30 15:27:07,857 [INFO] Linhas mantidas após limpeza: 417695 (removidas 48771)
+2025-09-30 15:27:35,175 [INFO] Arquivo salvo: C:\Users\msilva36\OneDrive - ELIS\Documentos\Case\src\ready\dados_powerbi.xlsx (417695 linhas). Tempo: 45.88s
+2025-09-30 15:27:35,194 [INFO] ETL concluído com sucesso.
+2025-09-30 15:51:03,063 [INFO] Iniciando script principal.
+2025-09-30 15:51:03,066 [INFO] Iniciando ETL robusto (wide -> long)
+2025-09-30 15:51:04,996 [INFO] Lido com header=[0,1] (multiindex).
+2025-09-30 15:51:05,005 [INFO] Colunas originais (1004): [('Unnamed: 0_level_0', 'State Label'), ('Unnamed: 1_level_0', 'City'), ('Unnamed: 2_level_0', 'Brand'), ('Ticket Médio (sem taxa)', '1 de janeiro de 2024'), ('Ticket Médio (sem taxa)', '2 de janeiro de 2024'), ('Ticket Médio (sem taxa)', '3 de janeiro de 2024'), ('Ticket Médio (sem taxa)', '4 de janeiro de 2024'), ('Ticket Médio (sem taxa)', '5 de janeiro de 2024'), ('Ticket Médio (sem taxa)', '6 de janeiro de 2024'), ('Ticket Médio (sem taxa)', '7 de janeiro de 2024')] ...
+2025-09-30 15:51:05,007 [INFO] Colunas multiindex achatas com '___' entre métrica e data.
+2025-09-30 15:51:05,044 [INFO] Colunas detectadas - state: 'Unnamed: 0_level_0___State Label' / city: 'Unnamed: 1_level_0___City' / brand: 'Unnamed: 2_level_0___Brand'
+2025-09-30 15:51:05,045 [INFO] 1001 colunas de valor detectadas.
+2025-09-30 15:51:05,052 [INFO] Realizando melt (wide -> long)...
+2025-09-30 15:51:05,114 [INFO] After melt rows: 466466
+2025-09-30 15:51:22,667 [INFO] Linhas mantidas após limpeza: 417695 (removidas 48771)
+2025-09-30 15:51:42,342 [INFO] Arquivo salvo: C:\Users\msilva36\OneDrive - ELIS\Documentos\Case\src\ready\dados_powerbi.xlsx (417695 linhas). Tempo: 39.28s
+2025-09-30 15:51:42,366 [INFO] ETL concluído com sucesso.
+2025-09-30 16:00:46,232 [INFO] Iniciando script principal.
+2025-09-30 16:00:46,233 [INFO] Iniciando ETL robusto (wide -> long)
+2025-09-30 16:00:48,129 [INFO] Lido com header=[0,1] (multiindex).
+2025-09-30 16:00:48,130 [INFO] Colunas originais (1004): [('Unnamed: 0_level_0', 'State Label'), ('Unnamed: 1_level_0', 'City'), ('Unnamed: 2_level_0', 'Brand'), ('Ticket Médio (sem taxa)', '1 de janeiro de 2024'), ('Ticket Médio (sem taxa)', '2 de janeiro de 2024'), ('Ticket Médio (sem taxa)', '3 de janeiro de 2024'), ('Ticket Médio (sem taxa)', '4 de janeiro de 2024'), ('Ticket Médio (sem taxa)', '5 de janeiro de 2024'), ('Ticket Médio (sem taxa)', '6 de janeiro de 2024'), ('Ticket Médio (sem taxa)', '7 de janeiro de 2024')] ...
+2025-09-30 16:00:48,131 [INFO] Colunas multiindex achatas com '___' entre métrica e data.
+2025-09-30 16:00:48,164 [INFO] Colunas detectadas - state: 'Unnamed: 0_level_0___State Label' / city: 'Unnamed: 1_level_0___City' / brand: 'Unnamed: 2_level_0___Brand'
+2025-09-30 16:00:48,164 [INFO] 1001 colunas de valor detectadas.
+2025-09-30 16:00:48,171 [INFO] Realizando melt (wide -> long)...
+2025-09-30 16:00:48,232 [INFO] After melt rows: 466466
+2025-09-30 16:01:08,284 [INFO] Linhas mantidas após limpeza: 417695 (removidas 48771)
+2025-09-30 16:01:34,579 [INFO] Arquivo salvo: C:\Users\msilva36\OneDrive - ELIS\Documentos\Case\src\ready\dados_powerbi.xlsx (417695 linhas). Tempo: 48.35s
+2025-09-30 16:01:34,599 [INFO] ETL concluído com sucesso.
+2025-09-30 16:12:16,836 [INFO] Rodando ETL apenas uma vez...
+2025-09-30 16:12:16,838 [INFO] Iniciando ETL robusto (wide -> long)
+2025-09-30 16:12:18,684 [INFO] Lido com header=[0,1] (multiindex).
+2025-09-30 16:12:18,685 [ERROR] ETL terminou com erro (ver logs).
+2025-10-01 09:26:25,857 [INFO] Rodando ETL apenas uma vez...
+2025-10-01 09:26:25,858 [INFO] Iniciando ETL robusto (wide -> long)
+2025-10-01 09:26:27,761 [INFO] Lido com header=[0,1] (multiindex).
+2025-10-01 09:26:27,763 [ERROR] ETL terminou com erro (ver logs).
+2025-10-01 10:24:55,990 [INFO] Rodando ETL apenas uma vez...
+2025-10-01 10:24:55,991 [INFO] Iniciando ETL robusto (wide -> long)
+2025-10-01 10:24:58,114 [INFO] Lido com header=[0,1] (multiindex).
+2025-10-01 10:25:01,122 [INFO] Arquivo salvo em C:\Users\msilva36\OneDrive - ELIS\Documentos\Case\src\ready\dados_powerbi.xlsx
+2025-10-01 10:25:01,123 [INFO] ETL concluído em 5.13s
+2025-10-01 10:25:01,123 [INFO] ETL concluído com sucesso.
+2025-10-01 10:25:51,477 [INFO] Rodando ETL apenas uma vez...
+2025-10-01 10:25:51,478 [INFO] Iniciando ETL robusto (wide -> long)
+2025-10-01 10:25:54,618 [INFO] Lido com header=[0,1] (multiindex).
+2025-10-01 10:25:54,620 [ERROR] ETL terminou com erro (ver logs).
+2025-10-01 10:28:13,125 [INFO] Rodando ETL apenas uma vez...
+2025-10-01 10:28:13,125 [INFO] Iniciando ETL robusto (wide -> long)
+2025-10-01 10:28:15,134 [INFO] Lido com header=[0,1] (multiindex).
+2025-10-01 10:28:15,135 [ERROR] ETL terminou com erro (ver logs).
+2025-10-01 16:25:05,970 [INFO] Rodando ETL apenas uma vez...
+2025-10-01 16:25:05,971 [INFO] Iniciando ETL robusto (wide -> long)
+2025-10-01 16:25:08,045 [INFO] Lido com header=[0,1] (multiindex).
+2025-10-01 16:25:08,067 [ERROR] Colunas obrigatórias (estado, cidade, marca) não encontradas.
+2025-10-01 16:25:08,069 [ERROR] ETL terminou com erro (ver logs).
+2025-10-01 20:40:22,949 [INFO] Rodando ETL apenas uma vez...
+2025-10-01 20:40:22,950 [INFO] Iniciando ETL robusto (wide -> long)
+2025-10-01 20:40:25,362 [INFO] Lido com header=[0,1] (multiindex).
+2025-10-01 20:40:29,282 [INFO] Arquivo salvo em C:\Users\msilva36\OneDrive - ELIS\Documentos\Case\src\ready\dados_powerbi.xlsx
+2025-10-01 20:40:29,283 [INFO] ETL concluído em 6.33s
+2025-10-01 20:40:29,283 [INFO] ETL concluído com sucesso.
+2025-10-01 20:40:46,645 [INFO] Rodando ETL apenas uma vez...
+2025-10-01 20:40:46,646 [INFO] Iniciando ETL robusto (wide -> long)
+2025-10-01 20:40:48,695 [INFO] Lido com header=[0,1] (multiindex).
+2025-10-01 20:40:51,974 [INFO] Arquivo salvo em C:\Users\msilva36\OneDrive - ELIS\Documentos\Case\src\ready\dados_powerbi.xlsx
+2025-10-01 20:40:51,975 [INFO] ETL concluído em 5.33s
+2025-10-01 20:40:51,976 [INFO] ETL concluído com sucesso.
